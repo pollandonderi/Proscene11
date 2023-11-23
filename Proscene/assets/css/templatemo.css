@@ -31,23 +31,16 @@ Table of contents
 /* Typography */
 body, ul, li, p, a, label, input, div {
   font-family: 'Roboto', sans-serif;
-  font-size: 18px !important;
-  font-weight: 300 !important;
+  /* font-size: 18px !important; */
+  /* font-weight: 300 !important; */
 }
+
 .h1 {
   font-family: 'Roboto', sans-serif;
   font-size: 48px !important;
   font-weight: 200 !important;
 }
-.h2 {
-  font-family: 'Roboto', sans-serif;
-  font-size: 30px !important;
-  font-weight: 300;
-}
-.h3 {
-  font-family: 'Roboto', sans-serif;
-  font-size: 22px !important;
-}
+
 /* General */
 .logo { font-weight: 500 !important;}
 .text-warning {  color: #ede861 !important;}
@@ -129,6 +122,15 @@ body, ul, li, p, a, label, input, div {
   font-size: .5em !important;
   color: #000 !important;
 }
+.text-custom{
+  text-align: center;
+}
+@media (min-width:600px) {
+  .text-custom{
+    text-align: left;
+  }
+}
+
 /* Services */
 .services-icon-wap {transition: .3s;}
 .services-icon-wap:hover, .services-icon-wap:hover i {color: #fff;}
@@ -189,3 +191,4 @@ body, ul, li, p, a, label, input, div {
 
 /* Extra large devices (large desktops, 1200px and up)*/
 @media (min-width: 1200px) {}
+

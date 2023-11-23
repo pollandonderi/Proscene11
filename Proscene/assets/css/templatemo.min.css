@@ -25,7 +25,7 @@ ul {
 }
 .h1 {
   font-size: 48px !important;
-  font-weight: 200 !important;
+  /* font-weight: 200 !important; */
 }
 .h2 {
   font-size: 30px !important;
