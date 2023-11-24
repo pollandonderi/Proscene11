@@ -23,6 +23,9 @@ ul {
   font-size: 18px !important;
   font-weight: 300 !important;
 }
+bg-light1{
+  background-color: #f4f4f4;
+}
 .h1 {
   font-size: 48px !important;
   /* font-weight: 200 !important; */

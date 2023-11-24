@@ -37,8 +37,17 @@ body, ul, li, p, a, label, input, div {
 
 .h1 {
   font-family: 'Roboto', sans-serif;
-  font-size: 48px !important;
-  font-weight: 200 !important;
+  /* font-size: 48px !important; */
+  font-weight: 300 !important;
+}
+.bg-light1{
+  background-color: #f4f4f4;
+}
+.link{
+  text-decoration: none;
+   cursor: pointer;
+    font-size: 1.2em;
+     font-weight: 300;
 }
 
 /* General */
