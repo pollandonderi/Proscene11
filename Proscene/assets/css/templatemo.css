@@ -25,27 +25,61 @@ Table of contents
 16. Extra large devices (large desktops, 1200px and up)
 --------------------------------------------- */
 
-
+@font-face {
+  font-family: 'thin';
+  src: url(../fonts/myriad-set-pro-thin-webfont.ttf);
+}
+@font-face {
+  font-family: text;
+  src: url(../fonts/myriad-set-pro_text-webfont.ttf);
+}
 
 
 /* Typography */
 body, ul, li, p, a, label, input, div {
-  font-family: 'Roboto', sans-serif;
+  font-family: thin;
   /* font-size: 18px !important; */
   /* font-weight: 300 !important; */
 }
+.par{
+  font-size: 20px;
+}
 
 .h1 {
-  font-family: 'Roboto', sans-serif;
   /* font-size: 48px !important; */
   font-weight: 300 !important;
+  color: #000;
+  font-size: 64px;
+  line-height: 1;
 }
 .bg-light1{
-  background-color: #f4f4f4;
+  background-color: #f4f4f4d5;
 }
 .headings{
-  font-size: clamp(2rem ,2.8vw, 3rem);
+  font-size: clamp(1.8em ,2.5em, 2.5em);
+  line-height: 3rem;
+  color:#323232;
   font-weight: 300;
+}
+.headings2{
+  font-size: clamp(1.8em ,2.2em, 2.5em);
+  line-height: 3rem;
+  color:#323232;
+  font-weight: 300;
+  margin-top: .3em;
+  margin-bottom: .3em;
+}
+.pcreate{
+  font-size: 1.2em; font-weight: 200; line-height: 1.4; color: #787878;
+}
+.h3create{
+  font-size: 1.5em; font-weight: 300; color: #323232;
+  padding-block: 1em;
+}
+.pbrands{
+  font-family: 'text';
+  font-size: 1.1em;
+  color: #323232
 }
 .link{
   text-decoration: none;
@@ -59,6 +93,31 @@ body, ul, li, p, a, label, input, div {
 }
 .testimonials{
   font-size: clamp(1em, 1.8vw, 2em);
+}
+.max-width-custom{
+  width: 100%;
+  max-width: 1300px;
+}
+.p-max-width-custom{
+  font-size: 1.1em;
+  line-height: 1.4;
+  font-weight: 400;
+  font-family: 'text';
+}
+.fa-xsm{
+  font-weight: 200;
+}
+
+@media (max-width:560px) {
+  .headings{
+    font-size: 1.8em;
+  }
+  .pbrands{
+    font-size: 1em;
+  }
+  .p-max-width-custom{
+    font-size: 1em;
+  }
 }
 
 /* General */
@@ -142,9 +201,7 @@ body, ul, li, p, a, label, input, div {
   font-size: .5em !important;
   color: #000 !important;
 }
-.text-custom{
-  text-align: center;
-}
+
 @media (min-width:600px) {
   .text-custom{
     text-align: left;
