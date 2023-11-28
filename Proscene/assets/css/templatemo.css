@@ -52,6 +52,7 @@ body, ul, li, p, a, label, input, div {
   font-size: 64px;
   line-height: 1;
 }
+
 .bg-light1{
   background-color: #f4f4f4d5;
 }
@@ -62,7 +63,7 @@ body, ul, li, p, a, label, input, div {
   font-weight: 300;
 }
 .headings2{
-  font-size: clamp(1.8em ,2.2em, 2.5em);
+  font-size: clamp(1.8em ,2.1em, 2.5em);
   line-height: 3rem;
   color:#323232;
   font-weight: 300;
@@ -125,6 +126,18 @@ body, ul, li, p, a, label, input, div {
   .p-max-width-custom{
     font-size: 1em;
   }
+  .center1{
+    text-align: center;
+    }
+    .custom-padding{
+      padding-block: .4em;
+    }
+    .custom-padding-bottom{
+      padding-bottom: .1em;
+    }
+    .headings2{
+      line-height: 2.5rem;
+    }
 }
 
 /* General */
