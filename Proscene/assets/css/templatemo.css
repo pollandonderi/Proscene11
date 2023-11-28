@@ -96,7 +96,8 @@ body, ul, li, p, a, label, input, div {
 }
 .max-width-custom{
   width: 100%;
-  max-width: 1300px;
+  max-width: 1400px;
+  margin: 0 auto;
 }
 .p-max-width-custom{
   font-size: 1.1em;
@@ -106,6 +107,12 @@ body, ul, li, p, a, label, input, div {
 }
 .fa-xsm{
   font-weight: 200;
+}
+.nav50{
+  width: 45%;
+}
+.rounded1{
+  border-radius: 17px;
 }
 
 @media (max-width:560px) {
@@ -140,7 +147,7 @@ body, ul, li, p, a, label, input, div {
   color: #fff;
 }
 /* Nav */
-#templatemo_nav_top { min-height: 40px;}
+#templatemo_nav_top { min-height: 35px;}
 #templatemo_nav_top * { font-size: .9em !important;}
 #templatemo_main_nav a { color: #212934;}
 #templatemo_main_nav a:hover { color: #69bb7e;}
