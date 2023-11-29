@@ -115,16 +115,20 @@ body, ul, li, p, a, label, input, div {
 .rounded1{
   border-radius: 17px;
 }
+.padding-custom{
+  padding: .4em .7em;
+  font-size: 1.1em;
+}
 
 @media (max-width:560px) {
   .headings{
-    font-size: 1.8em;
+    font-size: 2em;
   }
   .pbrands{
-    font-size: 1em;
+    font-size: 1.1em;
   }
   .p-max-width-custom{
-    font-size: 1em;
+    font-size: 1.01em;
   }
   .center1{
     text-align: center;
@@ -137,6 +141,20 @@ body, ul, li, p, a, label, input, div {
     }
     .headings2{
       line-height: 2.5rem;
+    }
+    .padding-custom{
+      padding: .4em 1.6em;
+    }
+    .margin-custom{
+      margin-top: 0 !important;
+    padding-top: 0 !important;
+    }
+    .margin-custom1{
+      padding-top: 1.5em;
+    }
+    .margin-custom-image{
+      margin-top: 2.7em;
+      margin-bottom:1.4em;
     }
 }
 
