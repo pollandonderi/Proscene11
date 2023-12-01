@@ -119,6 +119,19 @@ body, ul, li, p, a, label, input, div {
   padding: .4em .7em;
   font-size: 1.1em;
 }
+.img{
+  background-image: url('/Proscene/assets/img/actionproscene.png');
+  background-position: cover;
+  background-repeat: repeat;
+  min-height: 21rem;
+  color: white !important;
+  min-height: 21rem;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+ 
+}
 
 @media (max-width:560px) {
   .headings{
