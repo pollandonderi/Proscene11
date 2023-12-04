@@ -34,7 +34,9 @@ Table of contents
   src: url(../fonts/myriad-set-pro_text-webfont.ttf);
 }
 
-
+*{
+  box-sizing: border-box;
+}
 /* Typography */
 body, ul, li, p, a, label, input, div {
   font-family: thin;
@@ -124,8 +126,8 @@ body, ul, li, p, a, label, input, div {
 }
 .img{
   background-image: url('/Proscene/assets/img/actionproscene.png');
-  background-position: cover;
-  background-repeat: repeat;
+  background-size: cover;
+  background-repeat: no-repeat;
   min-height: 21rem;
   color: white !important;
   min-height: 21rem;
@@ -171,6 +173,21 @@ body, ul, li, p, a, label, input, div {
     .margin-custom-image{
       margin-top: 2.7em;
       margin-bottom:1.4em;
+    }
+    /* .p-learnmore{
+      font-size: ;
+    } */
+    .img{
+      background-image: url('/Proscene/assets/img/learnmoresmall.png');
+      background-size: cover;
+  background-repeat: no-repeat;
+  min-height: 15rem;
+  color: white !important;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 100%;
     }
 }
 
