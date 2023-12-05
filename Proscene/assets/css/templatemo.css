@@ -54,6 +54,12 @@ body, ul, li, p, a, label, input, div {
   font-size: 64px;
   line-height: 1;
 }
+.h1-c {
+  font-weight: 300 !important;
+  color: white;
+  font-size: 64px;
+  line-height: 1;
+}
 
 .bg-light1{
   background-color: #f4f4f4d5;
@@ -80,6 +86,11 @@ body, ul, li, p, a, label, input, div {
   padding-block: 1em;
 }
 .pbrands{
+  font-family: 'text';
+  font-size: 1.1em;
+  color: #323232
+}
+.pbrands-c{
   font-family: 'text';
   font-size: 1.1em;
   color: #323232
@@ -128,6 +139,7 @@ body, ul, li, p, a, label, input, div {
   background-image: url('/Proscene/assets/img/actionproscene.png');
   background-size: cover;
   background-repeat: no-repeat;
+  background-position: center;
   min-height: 21rem;
   color: white !important;
   min-height: 21rem;
@@ -136,6 +148,13 @@ body, ul, li, p, a, label, input, div {
   flex-direction: column;
   justify-content: center;
  
+}
+.p-learnmore-c{
+  line-height: 1.6666666667rem;
+   font-weight: 100;
+}
+.custom-light-grey-outline {
+  border: 1px solid #817e7e !important;
 }
 
 @media (max-width:560px) {
@@ -180,6 +199,7 @@ body, ul, li, p, a, label, input, div {
     .img{
       background-image: url('/Proscene/assets/img/learnmoresmall.png');
       background-size: cover;
+      background-position: center;
   background-repeat: no-repeat;
   min-height: 15rem;
   color: white !important;
@@ -188,6 +208,14 @@ body, ul, li, p, a, label, input, div {
   flex-direction: column;
   justify-content: center;
   width: 100%;
+    }
+    .h1-c{
+      font-size: 42px;
+      padding-inline: .1em;
+    }
+
+    .pbrands-c{
+      font-size: 16px;
     }
 }
 
